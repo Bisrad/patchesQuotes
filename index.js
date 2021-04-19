@@ -11,7 +11,6 @@ const config = {
 
 const T = new twit(config);
 
-
 let patchesQuotes = [
   "I'm Patches. Unbreakable Patches.",
   "I am a knight of Catarina.",
@@ -35,13 +34,12 @@ let patchesQuotes = [
   "I won't ask for thanks, but I certainly deserve it.",
   "Caught 'em up, every last one of 'em.",
   "Why me? Why me?! What did I ever do anyway!?",
-
 ];
 
 let quote = _.sample(patchesQuotes);
 
 function postTweet() {
-  console.log('Patches just tweeted: ' + quote)
+  console.log('Patches is a cunt: ' + quote)
   T.post('statuses/update', { status: quote })
 }
 
