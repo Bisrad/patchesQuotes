@@ -39,7 +39,7 @@ let patchesQuotes = [
 let quote = _.sample(patchesQuotes);
 
 function postTweet() {
-  console.log('Patches is a cunt: ' + quote)
+  console.log('Patches tweets: ' + quote)
   T.post('statuses/update', { status: quote })
 }
 
