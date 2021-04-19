@@ -32,7 +32,7 @@ let patchesQuotes = [
   "Well, look at you. The luckiest man/lass in the world.",
   "I just got hold of some truly fine treasure. And for you, I'll practically give it away.",
   "I won't ask for thanks, but I certainly deserve it.",
-  "Caught 'em up, every last one of 'em.",
+  "Cough 'em up, every last one of 'em.",
   "Why me? Why me?! What did I ever do anyway!?",
 ];
 
