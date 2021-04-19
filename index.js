@@ -36,6 +36,7 @@ let patchesQuotes = [
   "Why me? Why me?! What did I ever do anyway!?",
 ];
 
+
 let quote = _.sample(patchesQuotes);
 
 function postTweet() {
